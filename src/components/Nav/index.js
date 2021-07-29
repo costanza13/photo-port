@@ -5,7 +5,7 @@ function Nav({ categories, setCurrentCategory, currentCategory }) {
   useEffect(() => {
     document.title = capitalizeFirstLetter(currentCategory.name);
   }, [currentCategory]);
-  
+
   return (
     <header>
       <h2>
