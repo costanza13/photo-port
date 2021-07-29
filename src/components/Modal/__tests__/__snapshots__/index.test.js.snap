@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal displays image matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="modalBackdrop"
+  >
+    <div
+      class="modalContainer"
+    >
+      <h3
+        class="modalTitle"
+        data-testid="modalPhotoName"
+      >
+        Grocery aisle
+      </h3>
+      <img
+        alt="commercial"
+      />
+      <p
+        data-testid="modalPhotoDescription"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie
+      </p>
+      <button
+        data-testid="modalCloseButton"
+        type="button"
+      >
+        Close this modal
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
