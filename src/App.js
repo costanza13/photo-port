@@ -26,10 +26,8 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <main>
-        <Gallery
-          currentCategory={currentCategory}
-        ></Gallery>
-        <ContactForm></ContactForm>
+      <ContactForm></ContactForm>
+        <Gallery currentCategory={currentCategory}></Gallery>
         <About></About>
       </main>
     </div>
